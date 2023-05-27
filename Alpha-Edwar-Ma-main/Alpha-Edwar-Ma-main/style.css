@@ -1,0 +1,49 @@
+p {
+  color: rgb(0, 255, 221);
+}
+
+body {
+  background-color: rgb(84, 73, 73);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img{
+  border-radius: 50px;
+}
+.slideshow-container {
+  position: relative;
+  
+}
+
+#left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
